@@ -1,14 +1,14 @@
 # Customizing my Macbook Air M2 (Eiji)
 
-Originally, I had kept this document under `dotfiles_mac`, however, there might not be any "dotfiles" in linux-style-ricing sense. This will contain settings, apps, profile-exports, exports from apps (which support their settings to be exported), etc.  
+Originally, I had kept this document under `dotfiles_mac`, however, there might not be any "dotfiles" in linux-style-ricing sense. This will contain settings, apps, profile-exports, exports from apps (which support their settings to be exported), etc.   
 
-Ofcourse, this is not meant to be an exhaustive list, even for myself, because there are numerous other small tweaks here and there that I keep on doing to make my workflow more comfortable. However, this document will list out some "major" tools / tweaks.  
+Ofcourse, this is not meant to be an exhaustive list, even for myself, because there are numerous other small tweaks here and there that I keep on doing to make my workflow more comfortable. However, this document will list out some "major" tools / tweaks.   
 
 ## [Cot](https://coteditor.com/) 
 
 > Simple text editor without too much distractions. Supports multiple languages (including markdown).  
 
-Install command line tool via `CotEditor -> Settings -> General` guide. 
+Install command line tool via `CotEditor -> Settings -> General` guide.  
 
 ```bash
 $ sudo ln -s /Applications/CotEditor.app/Contents/SharedSupport/bin/cot /usr/local/bin/cot
@@ -21,7 +21,7 @@ $ cot README.md
 
 ## [starship](https://starship.rs/)
 
-> modern PS1
+> modern PS1  
 
 Append the below line in `.zshrc` -  
 
@@ -31,7 +31,7 @@ eval "$(starship init zsh)"
 
 ## [bat](https://github.com/sharkdp/bat)
 
->  A `cat` command clone with syntax highlighting
+>  A `cat` command clone with syntax highlighting  
 
 ```bash
 bat README.md --theme=OneHalfDark
@@ -44,17 +44,17 @@ $ bat --config-file
 /Users/devp/.config/bat/config
 ```
 
-- Config file: `bat_config`  (path: `/Users/devp/.config/bat/config`)
+- Config file: `bat_config`  (path: `/Users/devp/.config/bat/config`)  
 
 ## [fig](https://fig.io/) (❗️ not working)
 
-> Autocomplete for terminal
+> Autocomplete for terminal  
 
 ## [CopyQ](https://github.com/hluk/CopyQ)
 
-> Clipboard manager
+> Clipboard manager   
 
-There will be an icon on the status bar (top) which when clicked, lists all the copied items in a new window. Pressing <kbd>Enter</kbd> will insert the selected item in the editor previously opened.   
+There will be an icon on the status bar (top) which when clicked, lists all the copied items in a new window. Pressing <kbd>Enter</kbd> will insert the selected item in the editor previously opened.    
 
 It can also be operated from terminal (see github link for more commands or `copyq —help`).  
 
@@ -97,7 +97,7 @@ Enable 🌐 key to show emoji pop-up.
 
 ### Screenshot
 
-Press `Shift ⇧ + Command ⌘ + 5` on keyboard, then choose to capture entire screen, an app window or a specific area.
+Press `Shift ⇧ + Command ⌘ + 5` on keyboard, then choose to capture entire screen, an app window or a specific area.  
 Customize it from the "Options" to store the screenshots in `/Users/devp/Pictures` directory to avoid cluttering the Desktop.  
 
 
@@ -111,9 +111,9 @@ Use "Automator" to create "workflows" for "Quick Actions" and follow [this guide
 
 Additionally, read about `open(1)` with the switch `-a` on man pages in iTerm2.  
 
-Edit this "Quick Action" at `~/Library/Services/Open\ in\ Visual\ Studio\ Code.workflow`. Double clicking this file in Finder will open it in Automator. Alternatively, we can Right Click and select "Show Package Contents" to reveal `Info.plist`, `Resources/`, etc. 
+Edit this "Quick Action" at `~/Library/Services/Open\ in\ Visual\ Studio\ Code.workflow`. Double clicking this file in Finder will open it in Automator. Alternatively, we can Right Click and select "Show Package Contents" to reveal `Info.plist`, `Resources/`, etc.  
 
-Changing icon image? Change it through the Automator app itself. Choose a `.png` file. We will need to restart Finder after this (I haven't found other workarounds except relaunching Finder).
+Changing icon image? Change it through the Automator app itself. Choose a `.png` file. We will need to restart Finder after this (I haven't found other workarounds except relaunching Finder).  
 
 ## Relaunching Finder (or other unresponsive apps)
 
@@ -122,10 +122,10 @@ Changing icon image? Change it through the Automator app itself. Choose a `.png`
 
 ## Go to a hidden path in Finder
 
-<kbd>Command ⌘ + Shift ⇧ + G</kbd> anywhere in Finder window [will open a pop-up](https://apple.stackexchange.com/questions/63791/is-it-possible-to-edit-the-path-and-view-the-folder-path-in-the-finder) where we can type partial path name to get suggestions via fuzzy completions.  
+<kbd>Command ⌘ + Shift ⇧ + G</kbd> anywhere in Finder window [will open a pop-up](https://apple.stackexchange.com/questions/63791/is-it-possible-to-edit-the-path-and-view-the-folder-path-in-the-finder) where we can type partial path name to get suggestions via fuzzy completions.   
 
 
 ## References
 
-https://wangchujiang.com/awesome-mac/
-https://www.youtube.com/@macvince
+- https://wangchujiang.com/awesome-mac/  
+- https://www.youtube.com/@macvince  
