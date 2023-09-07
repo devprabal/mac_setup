@@ -44,7 +44,7 @@ $ bat --config-file
 /Users/devp/.config/bat/config
 ```
 
-- Config file: `bat_config`  (path: `/Users/devp/.config/bat/config`)  
+- Config file: [`bat_config`](./bat_config)  (path: `/Users/devp/.config/bat/config`)  
 
 ## [fig](https://fig.io/) (❗️ not working)
 
@@ -67,8 +67,8 @@ copyq clipboard
 
 ⚠️ ~~The app needs to be launched everytime I think~~  -> fix it from "File->Preferences"  
 
-- Config file: `copyq_config.cpq` (path: import / export from "File->Preferences")    
-- Theme file (and path): `/Users/devp/.config/copyq/themes/copyq_arial_large_solarized.ini`   
+- Config file: [`copyq_config.cpq`](./copyq_config.cpq) (path: import / export from "File->Preferences")    
+- Theme file (and path): [`/Users/devp/.config/copyq/themes/copyq_arial_large_solarized.ini`](./copyq_arial_large_solarized.ini)   
 
 ## Skim
 
@@ -119,11 +119,13 @@ Changing icon image? Change it through the Automator app itself. Choose a `.png`
 
 <kbd>Command ⌘ + Option ⌥ + Esc</kbd> from anywhere. This is similar to "task manager running apps on windows". It opens up a pop-up with a list of running apps, which can be forced quit or relaunched.  
 
-
-## Go to a hidden path in Finder
+## Go to a hidden folder's path in Finder
 
 <kbd>Command ⌘ + Shift ⇧ + G</kbd> anywhere in Finder window [will open a pop-up](https://apple.stackexchange.com/questions/63791/is-it-possible-to-edit-the-path-and-view-the-folder-path-in-the-finder) where we can type partial path name to get suggestions via fuzzy completions.   
 
+## .zshrc
+
+Config file: [.zshrc](./zshrc) (path: `/Users/devp/.zshrc`)
 
 ## References
 
