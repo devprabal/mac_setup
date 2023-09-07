@@ -97,8 +97,12 @@ Enable 🌐 key to show emoji pop-up.
 
 ### Screenshot
 
-Press `Shift ⇧ + Command ⌘ + 5` on keyboard, then choose to capture entire screen, an app window or a specific area.  
-Customize it from the "Options" to store the screenshots in `/Users/devp/Pictures` directory to avoid cluttering the Desktop.  
+- Full screen ss and auto save to a file (not copy to clipboard): Press `Shift ⇧ + Command ⌘ + S`   
+- Area ss and copy to clipboard (not save to file): Press `Command ⌘ + Option ⌥ + S`
+
+![Settings -> Keyboard -> Shortcuts custom ss shortcut](screenshot_keyboard_shortcut.png)
+
+**screenshot.app** -> Customize the "Options" to store the screenshots in `/Users/devp/Pictures` directory to avoid cluttering the Desktop.  
 
 
 ### Preview
