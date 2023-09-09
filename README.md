@@ -127,6 +127,19 @@ Changing icon image? Change it through the Automator app itself. Choose a `.png`
 
 <kbd>Command ⌘ + Shift ⇧ + G</kbd> anywhere in Finder window [will open a pop-up](https://apple.stackexchange.com/questions/63791/is-it-possible-to-edit-the-path-and-view-the-folder-path-in-the-finder) where we can type partial path name to get suggestions via fuzzy completions.   
 
+## Finder settings
+
+Menu bar -> Finder -> Settings  
+Customize preferences like default folder to open, sidebar folders to show, quick action tags (remove all), favourite tags (I removed all, I don't like the concept of color mapping), etc.
+
+## Emoji Key
+
+Under keyboard settings, select "emoji" for 🌐 key.  
+
+## Desktop and Dock settings
+
+Remove "Show recent applications" in dock.  
+
 ## .zshrc
 
 Config file: [.zshrc](./zshrc) (path: `/Users/devp/.zshrc`)
@@ -135,3 +148,4 @@ Config file: [.zshrc](./zshrc) (path: `/Users/devp/.zshrc`)
 
 - https://wangchujiang.com/awesome-mac/  
 - https://www.youtube.com/@macvince  
+- https://www.youtube.com/watch?v=tCYJ2Iy4ZEU
