@@ -70,13 +70,23 @@ copyq clipboard
 - Config file: [`copyq_config.cpq`](./copyq_config.cpq) (path: import / export from "File->Preferences")    
 - Theme file (and path): [`/Users/devp/.config/copyq/themes/copyq_arial_large_solarized.ini`](./copyq_arial_large_solarized.ini)   
 
-## Skim
+## [Skim](https://skim-app.sourceforge.io/)
 
-## hidden bar
+> open source, pdf annotations  
 
-## app cleaner
+## [hidden bar](https://github.com/dwarvesf/hidden)
 
-## obsidian
+> Hides unwanted icons from menu bar into a space which can be revealed by a click on "hidden bar arrow icon" on menu bar. Similar to System Tray in Windows.  
+
+Allow it to start on log in from the hidden bar app settings.  
+
+## [app cleaner](https://freemacsoft.net/appcleaner/)
+
+> delete other files related to an app when removing app from "Applications" folder (uninstalling)  
+
+Turn on smart clean detection option from the app settings.  
+
+**Usage**: launch this app first and then drag and drop the app icon which needs to be uninstalled.  
 
 ## Show markdown in Finder Preview
 
