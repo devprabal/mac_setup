@@ -94,7 +94,14 @@ Install [qlmarkdown](https://github.com/toland/qlmarkdown) and launch it once fr
 
 *Might as well have a look at other [quick look plugins](https://github.com/sindresorhus/quick-look-plugins)*  
 
+## vscode navigation
 
+![ss_vscode_navigation_shortcut](./ss_vscode_navigation_shortcut.jpeg)
+
+Remove other pre-existing keybindings using the same keystrokes as below  -  
+
+`Option ⌥ + ←`  backward  
+`Option ⌥ + →`  forward  
 
 ## System Utils / Settings
 
@@ -107,9 +114,8 @@ Enable 🌐 key to show emoji pop-up.
 
 ### Screenshot
 
-- Full screen ss and auto save to a file (not copy to clipboard): Press `Shift ⇧ + Command ⌘ + S`   
-- Area ss and copy to clipboard (not save to file): Press `Command ⌘ + Option ⌥ + S`
-
+- Full screen ss and auto save to a file (not copy to clipboard): Press `Command ⌘ + Option ⌥ + S`  
+- Area ss and copy to clipboard (not save to file): Press `Shift ⇧ + Command ⌘ + S`  
 ![Settings -> Keyboard -> Shortcuts custom ss shortcut](screenshot_keyboard_shortcut.png)
 
 **screenshot.app** -> Customize the "Options" to store the screenshots in `/Users/devp/Pictures` directory to avoid cluttering the Desktop.  
