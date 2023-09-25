@@ -88,6 +88,11 @@ Turn on smart clean detection option from the app settings.
 
 **Usage**: launch this app first and then drag and drop the app icon which needs to be uninstalled.  
 
+## [dropzone](https://apps.apple.com/us/app/dropzone-4/id1485052491?mt=12)
+
+> simple drag and drop, temporary file storage area, launch folders, quick actions, etc. from menu bar  
+
+It is not always possible to have two windows from different desktops or from different stage manager groups to overlap each other just for the purpose of drag-drop from one window onto another. However, with dropzone, we can drop file(s) into the space provided by the dropzone app (which lives on the menu bar) and then switch to another application and drag-drop from the dropzone app to this application.   
 ## Show markdown in Finder Preview
 
 Install [qlmarkdown](https://github.com/toland/qlmarkdown) and launch it once from the app drawer.  
@@ -102,6 +107,10 @@ Remove other pre-existing keybindings using the same keystrokes as below  -
 
 `Option ⌥ + ←`  backward  
 `Option ⌥ + →`  forward  
+
+## iterm2 quick switch
+
+I set up a hotkey from iTerm2 settings `Option ⌥ + spacebar` to quickly switch to the iterm window from anywhere.
 
 ## System Utils / Settings
 
@@ -159,6 +168,10 @@ Remove "Show recent applications" in dock.
 ## .zshrc
 
 Config file: [.zshrc](./zshrc) (path: `/Users/devp/.zshrc`)
+
+## Cycle through the windows of the same app
+
+"command ⌘ + back tick ` "
 
 ## References
 
