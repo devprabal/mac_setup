@@ -159,7 +159,7 @@ Customize preferences like default folder to open, sidebar folders to show, quic
 
 ## Emoji Key
 
-Under keyboard settings, select "emoji" for 🌐 key.  
+Under keyboard settings, select "emoji" for <kbd>🌐</kbd> key.  
 
 ## Desktop and Dock settings
 
@@ -171,7 +171,26 @@ Config file: [.zshrc](./zshrc) (path: `/Users/devp/.zshrc`)
 
 ## Cycle through the windows of the same app
 
-"command ⌘ + back tick ` "
+<kbd>command ⌘ + back tick ` </kbd>
+
+## Cycle through fullscreen apps 
+
+<kbd>command ⌘ + tab ⇥</kbd>  
+
+However, we need to enable it from   
+"Settings -> Desktop & Dock -> Mission Control -> When switching to an application, switch to a Space with open windows for the application".  
+
+![mission control tab switching ss](ss_mission_control_tab_switching.png)
+
+There are also other shortcuts for switching between different Spaces (fullscreen apps) -  
+
+<kbd>Control ^ + left arrow key ← </kbd>  
+or  
+<kbd>Control ^ + right arrow key → </kbd> 
+or  
+<kbd>Control ^ + 1 </kbd> for switching to space 1  
+
+We might need to enable the last one from "Settings -> Keyboard -> keyboard shortcuts -> Mission Control -> Mission Control (expand)"  
 
 ## References
 
