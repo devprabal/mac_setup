@@ -108,9 +108,13 @@ Remove other pre-existing keybindings using the same keystrokes as below  -
 `Option ⌥ + ←`  backward  
 `Option ⌥ + →`  forward  
 
-## iterm2 quick switch
+## iterm2
 
-I set up a hotkey from iTerm2 settings `Option ⌥ + spacebar` to quickly switch to the iterm window from anywhere.
+**quick switch**  
+I set up a hotkey from iTerm2 settings `Option ⌥ + spacebar` to quickly switch to the iterm window from anywhere.  
+
+**Shell Integrations**  
+Additionally, I have installed shell integrations from "iTerm2 menubar -> Install Shell Integration" for utilities like `imgcat`, etc.  
 
 ## System Utils / Settings
 
@@ -197,3 +201,6 @@ We might need to enable the last one from "Settings -> Keyboard -> keyboard shor
 - https://wangchujiang.com/awesome-mac/  
 - https://www.youtube.com/@macvince  
 - https://www.youtube.com/watch?v=tCYJ2Iy4ZEU
+- https://osxdaily.com/2023/02/06/open-terminal-by-keyboard-shortcut-on-mac/
+- https://stackoverflow.com/questions/47350555/launch-multiple-instances-of-application-in-mac
+
