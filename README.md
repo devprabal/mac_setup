@@ -116,6 +116,10 @@ I set up a hotkey from iTerm2 settings `Option ⌥ + spacebar` to quickly switch
 **Shell Integrations**  
 Additionally, I have installed shell integrations from "iTerm2 menubar -> Install Shell Integration" for utilities like `imgcat`, etc.  
 
+**switch to an open window or open new window from anywhere**  
+<kbd>Option ⌥ + T</kbd>  
+I set a custom keyboard shortcut from "Shortcuts.app" following [this guide](https://osxdaily.com/2023/02/06/open-terminal-by-keyboard-shortcut-on-mac/).  
+
 ## System Utils / Settings
 
 ### Keyboard
@@ -201,6 +205,4 @@ We might need to enable the last one from "Settings -> Keyboard -> keyboard shor
 - https://wangchujiang.com/awesome-mac/  
 - https://www.youtube.com/@macvince  
 - https://www.youtube.com/watch?v=tCYJ2Iy4ZEU
-- https://osxdaily.com/2023/02/06/open-terminal-by-keyboard-shortcut-on-mac/
 - https://stackoverflow.com/questions/47350555/launch-multiple-instances-of-application-in-mac
-
