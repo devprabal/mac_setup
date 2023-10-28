@@ -92,7 +92,19 @@ Turn on smart clean detection option from the app settings.
 
 > simple drag and drop, temporary file storage area, launch folders, quick actions, etc. from menu bar  
 
-It is not always possible to have two windows from different desktops or from different stage manager groups to overlap each other just for the purpose of drag-drop from one window onto another. However, with dropzone, we can drop file(s) into the space provided by the dropzone app (which lives on the menu bar) and then switch to another application and drag-drop from the dropzone app to this application.   
+It is not always possible to have two windows from different desktops or from different stage manager groups to overlap each other just for the purpose of drag-drop from one window onto another. However, with dropzone, we can drop file(s) into the space provided by the dropzone app (which lives on the menu bar) and then switch to another application and drag-drop from the dropzone app to this application.  
+
+## [vlc](https://www.videolan.org/)
+
+> simple music and video player, replacement for apple music
+
+To change the default "Open with" app for music files, follow these steps from [Tom's guide](https://www.tomsguide.com/how-to/how-to-set-default-apps-on-mac) -  
+
+- In Finder, right click a file and select 'Get Info'
+- Click the 'Open with' dropdown box
+- Select an app — this will be the app that opens all files of this file type from now on
+- Click 'Change All'
+
 ## Show markdown in Finder Preview
 
 Install [qlmarkdown](https://github.com/toland/qlmarkdown) and launch it once from the app drawer.  
