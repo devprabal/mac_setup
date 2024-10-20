@@ -212,6 +212,10 @@ or
 
 We might need to enable the last one from "Settings -> Keyboard -> keyboard shortcuts -> Mission Control -> Mission Control (expand)"  
 
+## Android Phone to Mac sync / file transfer
+
+Install a variant of [kde connect](https://soduto.com/) on all devices (pixel, mac).
+
 ## References
 
 - https://wangchujiang.com/awesome-mac/  
