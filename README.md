@@ -76,6 +76,12 @@ copyq clipboard
 >
 > Plus, it does a lot of things, including replacement of Spotlight.
 
+Shortcut: `⌘ + Space`
+
+Change the hotkey using [**this** guide](https://manual.raycast.com/hotkey).  
+I also disabled the shortcuts for spotlight and input sources.  
+I already have Input sources shortcut mapped to the globe `🌐` key.  
+
 ## [Skim](https://skim-app.sourceforge.io/)
 
 > open source, pdf annotations  
@@ -145,7 +151,7 @@ I set a custom keyboard shortcut from "Shortcuts.app" following [this guide](htt
 "Settings -> Keyboard -> Text Input -> Edit"  
 Uncheck all options like - smart quotes, double spacebar to add dot, correct spelling automatically, etc.  
 
-Enable 🌐 key to show emoji pop-up.  
+Enable globe 🌐 key to show emoji pop-up.  
 
 ### Screenshot
 
