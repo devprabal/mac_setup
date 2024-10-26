@@ -50,7 +50,7 @@ $ bat --config-file
 
 > Autocomplete for terminal  
 
-## [CopyQ](https://github.com/hluk/CopyQ)
+## ~~[CopyQ](https://github.com/hluk/CopyQ)~~ NOT using anymore
 
 > Clipboard manager   
 
@@ -69,6 +69,12 @@ copyq clipboard
 
 - Config file: [`copyq_config.cpq`](./copyq_config.cpq) (path: import / export from "File->Preferences")    
 - Theme file (and path): [`/Users/devp/.config/copyq/themes/copyq_arial_large_solarized.ini`](./copyq_arial_large_solarized.ini)   
+
+## [Raycast](https://www.raycast.com/)
+
+> alternative to copyq clipboard
+>
+> Plus, it does a lot of things, including replacement of Spotlight.
 
 ## [Skim](https://skim-app.sourceforge.io/)
 
@@ -215,6 +221,10 @@ We might need to enable the last one from "Settings -> Keyboard -> keyboard shor
 ## Android Phone to Mac sync / file transfer
 
 Install a variant of [kde connect](https://soduto.com/) on all devices (pixel, mac).
+
+## [Pure Paste](https://sindresorhus.com/pure-paste)
+
+> copy from anywhere, paste without formatting (runs in background).
 
 ## References
 
