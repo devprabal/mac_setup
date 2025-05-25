@@ -232,6 +232,18 @@ Install a variant of [kde connect](https://soduto.com/) on all devices (pixel, m
 
 > copy from anywhere, paste without formatting (runs in background).
 
+## `g++` / `clang++` not able to find std lib headers
+
+- Often occurs due to macOS updates.
+
+```console
+sudo rm -rf /Library/Developer/CommandLineTools`
+xcode-select --install
+```
+
+[source: stackoverflow](https://stackoverflow.com/questions/34617452/how-to-update-xcode-from-command-line)
+
+
 ## References
 
 - https://wangchujiang.com/awesome-mac/  
