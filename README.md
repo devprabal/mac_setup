@@ -100,6 +100,10 @@ Turn on smart clean detection option from the app settings.
 
 **Usage**: launch this app first and then drag and drop the app icon which needs to be uninstalled.  
 
+## [Pear Cleaner](https://github.com/alienator88/Pearcleaner)
+
+- Using this now instead of AppCleaner. It is open source and free and recommended on [reddit](https://www.reddit.com/r/mac/comments/1dmzcph/how_to_clean_my_mac/).
+
 ## [dropzone](https://apps.apple.com/us/app/dropzone-4/id1485052491?mt=12)
 
 > simple drag and drop, temporary file storage area, launch folders, quick actions, etc. from menu bar  
