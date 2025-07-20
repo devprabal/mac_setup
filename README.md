@@ -70,7 +70,7 @@ copyq clipboard
 - Config file: [`copyq_config.cpq`](./copyq_config.cpq) (path: import / export from "File->Preferences")    
 - Theme file (and path): [`/Users/devp/.config/copyq/themes/copyq_arial_large_solarized.ini`](./copyq_arial_large_solarized.ini)   
 
-## [Raycast](https://www.raycast.com/)
+## ~~[Raycast](https://www.raycast.com/)~~ NOT using anymore
 
 > alternative to copyq clipboard
 >
@@ -81,6 +81,13 @@ Shortcut: `⌘ + Space`
 Change the hotkey using [**this** guide](https://manual.raycast.com/hotkey).  
 I also disabled the shortcuts for spotlight and input sources.  
 I already have Input sources shortcut mapped to the globe `🌐` key.  
+
+## [Maccy](https://github.com/p0deje/Maccy)
+
+> Clipboard manager  
+
+Hotkey `Shift + Command + V`   
+<kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>v</kbd> or, access it via the icon in the top bar.  
 
 ## [Skim](https://skim-app.sourceforge.io/)
 
