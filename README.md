@@ -93,7 +93,7 @@ Hotkey `Shift + Command + V`
 
 > open source, pdf annotations  
 
-## [hidden bar](https://github.com/dwarvesf/hidden)
+## ~~[hidden bar](https://github.com/dwarvesf/hidden)~~ NOT using anymore
 
 > Hides unwanted icons from menu bar into a space which can be revealed by a click on "hidden bar arrow icon" on menu bar. Similar to System Tray in Windows.  
 
@@ -261,3 +261,4 @@ xcode-select --install
 - https://www.youtube.com/@macvince  
 - https://www.youtube.com/watch?v=tCYJ2Iy4ZEU
 - https://stackoverflow.com/questions/47350555/launch-multiple-instances-of-application-in-mac
+- [r/macapps | Top Mac Apps ... ](https://www.reddit.com/r/macapps/comments/1mg97ta/top_mac_apps_that_i_would_say_improve_the_mac_exp/)
