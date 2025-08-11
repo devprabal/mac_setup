@@ -195,6 +195,10 @@ Changing icon image? Change it through the Automator app itself. Choose a `.png`
 
 <kbd>Command ⌘ + Shift ⇧ + G</kbd> anywhere in Finder window [will open a pop-up](https://apple.stackexchange.com/questions/63791/is-it-possible-to-edit-the-path-and-view-the-folder-path-in-the-finder) where we can type partial path name to get suggestions via fuzzy completions.   
 
+## Show hidden files and folders in any "open file" dialog box pop-up
+
+Command <kbd>⌘</kbd> + Shift<kbd>⇧</kbd> + dot <kbd>.</kbd> in the 'open' dialog box [to show hidden items](https://apple.stackexchange.com/questions/186376/hotkey-to-show-hidden-files-and-folders-in-file-open-dialog). Pressing the key combination again will toggle it.  
+
 ## Finder settings
 
 Menu bar -> Finder -> Settings  
