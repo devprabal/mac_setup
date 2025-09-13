@@ -160,6 +160,13 @@ I set a custom keyboard shortcut from "Shortcuts.app" following [this guide](htt
 
 I use "nightfox" text colorscheme downloaded from [edeneast's nvim colors | gh repo](https://github.com/EdenEast/nightfox.nvim/blob/main/extra/nightfox/nightfox.itermcolors). I also like [Everforest theme](https://github.com/icewind/everforest.iterm2).  
 
+## [Rio](https://rioterm.com/)
+
+Using an alternative terminal in addition to iterm2 because it is based on [alacritty](https://alacritty.org/) and written in rust. Also it has fancy blurs, etc.
+
+config file: [rio_config.toml](./rio_config.toml)
+
+terminal colorschemes: [dayfox](./terminal_themes/dayfox.toml), [nightfox](./terminal_themes/nightfox.toml), [terrafox](./terminal_themes/terrafox.toml), [nordfox](./terminal_themes/nordfox.toml)
 
 ## System Utils / Settings
 
