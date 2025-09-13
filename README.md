@@ -279,6 +279,14 @@ Using this instead of firefox.
 
 Using this instead of Vscode.  
 
+## [Numi](https://github.com/nikolaeu/numi)
+
+Using both cli (example, `numi-cli "1kg in pounds"`) and the app for easy conversions (in natural language) of many trivial items that erstwhile needed web search.    
+
+## [Ayugram](https://github.com/AyuGram/AyuGramDesktop)
+
+Using this as an alternative desktop app to the official telegram app, for now.  
+
 ## References
 
 - https://wangchujiang.com/awesome-mac/  
