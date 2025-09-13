@@ -1,14 +1,14 @@
 # Customizing my Macbook Air M2 (Eiji)
 
-Originally, I had kept this document under `dotfiles_mac`, however, there might not be any "dotfiles" in linux-style-ricing sense. This will contain settings, apps, profile-exports, exports from apps (which support their settings to be exported), etc.
+Originally, I had kept this document under `dotfiles_mac`, however, there might not be any "dotfiles" in linux-style-ricing sense. This will contain settings, apps, profile-exports, exports from apps (which support their settings to be exported), etc.   
 
-Ofcourse, this is not meant to be an exhaustive list, even for myself, because there are numerous other small tweaks here and there that I keep on doing to make my workflow more comfortable. However, this document will list out some "major" tools / tweaks.
+Ofcourse, this is not meant to be an exhaustive list, even for myself, because there are numerous other small tweaks here and there that I keep on doing to make my workflow more comfortable. However, this document will list out some "major" tools / tweaks.   
 
-## [Cot](https://coteditor.com/)
+## [Cot](https://coteditor.com/) 
 
-> Simple text editor without too much distractions. Supports multiple languages (including markdown).
+> Simple text editor without too much distractions. Supports multiple languages (including markdown).  
 
-Install command line tool via `CotEditor -> Settings -> General` guide.
+Install command line tool via `CotEditor -> Settings -> General` guide.  
 
 ```bash
 $ sudo ln -s /Applications/CotEditor.app/Contents/SharedSupport/bin/cot /usr/local/bin/cot
@@ -21,9 +21,9 @@ $ cot README.md
 
 ## [starship](https://starship.rs/)
 
-> modern PS1
+> modern PS1  
 
-Append the below line in `.zshrc` -
+Append the below line in `.zshrc` -  
 
 ```txt
 eval "$(starship init zsh)"
@@ -31,44 +31,44 @@ eval "$(starship init zsh)"
 
 ## [bat](https://github.com/sharkdp/bat)
 
->  A `cat` command clone with syntax highlighting
+>  A `cat` command clone with syntax highlighting  
 
 ```bash
 bat README.md --theme=OneHalfDark
 ```
 
-Find where `bat` reads configs from
+Find where `bat` reads configs from  
 
 ```bash
 $ bat --config-file
 /Users/devp/.config/bat/config
 ```
 
-- Config file: [`bat_config`](./bat_config)  (path: `/Users/devp/.config/bat/config`)
+- Config file: [`bat_config`](./bat_config)  (path: `/Users/devp/.config/bat/config`)  
 
 ## [fig](https://fig.io/) (❗️ not working)
 
-> Autocomplete for terminal
+> Autocomplete for terminal  
 
 ## ~~[CopyQ](https://github.com/hluk/CopyQ)~~ NOT using anymore
 
-> Clipboard manager
+> Clipboard manager   
 
-There will be an icon on the status bar (top) which when clicked, lists all the copied items in a new window. Pressing <kbd>Enter</kbd> will insert the selected item in the editor previously opened.
+There will be an icon on the status bar (top) which when clicked, lists all the copied items in a new window. Pressing <kbd>Enter</kbd> will insert the selected item in the editor previously opened.    
 
-It can also be operated from terminal (see github link for more commands or `copyq —help`).
+It can also be operated from terminal (see github link for more commands or `copyq —help`).  
 
 ```bash
 copyq toggle
 copyq clipboard
 ```
 
-⚠️ Enable it to control the system from "Settings -> Privacy & Security -> Accessibility".
+⚠️ Enable it to control the system from "Settings -> Privacy & Security -> Accessibility".  
 
-⚠️ ~~The app needs to be launched everytime I think~~  -> fix it from "File->Preferences"
+⚠️ ~~The app needs to be launched everytime I think~~  -> fix it from "File->Preferences"  
 
-- Config file: [`copyq_config.cpq`](./copyq_config.cpq) (path: import / export from "File->Preferences")
-- Theme file (and path): [`/Users/devp/.config/copyq/themes/copyq_arial_large_solarized.ini`](./copyq_arial_large_solarized.ini)
+- Config file: [`copyq_config.cpq`](./copyq_config.cpq) (path: import / export from "File->Preferences")    
+- Theme file (and path): [`/Users/devp/.config/copyq/themes/copyq_arial_large_solarized.ini`](./copyq_arial_large_solarized.ini)   
 
 ## ~~[Raycast](https://www.raycast.com/)~~ NOT using anymore
 
@@ -78,34 +78,34 @@ copyq clipboard
 
 Shortcut: `⌘ + Space`
 
-Change the hotkey using [**this** guide](https://manual.raycast.com/hotkey).
-I also disabled the shortcuts for spotlight and input sources.
-I already have Input sources shortcut mapped to the globe `🌐` key.
+Change the hotkey using [**this** guide](https://manual.raycast.com/hotkey).  
+I also disabled the shortcuts for spotlight and input sources.  
+I already have Input sources shortcut mapped to the globe `🌐` key.  
 
 ## [Maccy](https://github.com/p0deje/Maccy)
 
-> Clipboard manager
+> Clipboard manager  
 
-Hotkey `Shift + Command + V`
-<kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>v</kbd> or, access it via the icon in the top bar.
+Hotkey `Shift + Command + V`   
+<kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>v</kbd> or, access it via the icon in the top bar.  
 
 ## [Skim](https://skim-app.sourceforge.io/)
 
-> open source, pdf annotations
+> open source, pdf annotations  
 
 ## ~~[hidden bar](https://github.com/dwarvesf/hidden)~~ NOT using anymore
 
-> Hides unwanted icons from menu bar into a space which can be revealed by a click on "hidden bar arrow icon" on menu bar. Similar to System Tray in Windows.
+> Hides unwanted icons from menu bar into a space which can be revealed by a click on "hidden bar arrow icon" on menu bar. Similar to System Tray in Windows.  
 
-Allow it to start on log in from the hidden bar app settings.
+Allow it to start on log in from the hidden bar app settings.  
 
 ## [app cleaner](https://freemacsoft.net/appcleaner/)
 
-> delete other files related to an app when removing app from "Applications" folder (uninstalling)
+> delete other files related to an app when removing app from "Applications" folder (uninstalling)  
 
-Turn on smart clean detection option from the app settings.
+Turn on smart clean detection option from the app settings.  
 
-**Usage**: launch this app first and then drag and drop the app icon which needs to be uninstalled.
+**Usage**: launch this app first and then drag and drop the app icon which needs to be uninstalled.  
 
 ## [Pear Cleaner](https://github.com/alienator88/Pearcleaner)
 
@@ -113,15 +113,15 @@ Turn on smart clean detection option from the app settings.
 
 ## [dropzone](https://apps.apple.com/us/app/dropzone-4/id1485052491?mt=12)
 
-> simple drag and drop, temporary file storage area, launch folders, quick actions, etc. from menu bar
+> simple drag and drop, temporary file storage area, launch folders, quick actions, etc. from menu bar  
 
-It is not always possible to have two windows from different desktops or from different stage manager groups to overlap each other just for the purpose of drag-drop from one window onto another. However, with dropzone, we can drop file(s) into the space provided by the dropzone app (which lives on the menu bar) and then switch to another application and drag-drop from the dropzone app to this application.
+It is not always possible to have two windows from different desktops or from different stage manager groups to overlap each other just for the purpose of drag-drop from one window onto another. However, with dropzone, we can drop file(s) into the space provided by the dropzone app (which lives on the menu bar) and then switch to another application and drag-drop from the dropzone app to this application.  
 
 ## [vlc](https://www.videolan.org/)
 
 > simple music and video player, replacement for apple music
 
-To change the default "Open with" app for music files, follow these steps from [Tom's guide](https://www.tomsguide.com/how-to/how-to-set-default-apps-on-mac) -
+To change the default "Open with" app for music files, follow these steps from [Tom's guide](https://www.tomsguide.com/how-to/how-to-set-default-apps-on-mac) -  
 
 - In Finder, right click a file and select 'Get Info'
 - Click the 'Open with' dropdown box
@@ -130,93 +130,93 @@ To change the default "Open with" app for music files, follow these steps from [
 
 ## Show markdown in Finder Preview
 
-Install [qlmarkdown](https://github.com/toland/qlmarkdown) and launch it once from the app drawer.
+Install [qlmarkdown](https://github.com/toland/qlmarkdown) and launch it once from the app drawer.  
 
-*Might as well have a look at other [quick look plugins](https://github.com/sindresorhus/quick-look-plugins)*
+*Might as well have a look at other [quick look plugins](https://github.com/sindresorhus/quick-look-plugins)*  
 
 ## vscode navigation
 
 ![ss_vscode_navigation_shortcut](./ss_vscode_navigation_shortcut.jpeg)
 
-Remove other pre-existing keybindings using the same keystrokes as below  -
+Remove other pre-existing keybindings using the same keystrokes as below  -  
 
-`Option ⌥ + ←`  backward
-`Option ⌥ + →`  forward
+`Option ⌥ + ←`  backward  
+`Option ⌥ + →`  forward  
 
 ## iterm2
 
-**quick switch**
-I set up a hotkey from iTerm2 settings `Option ⌥ + spacebar` to quickly switch to the iterm window from anywhere.
+**quick switch**  
+I set up a hotkey from iTerm2 settings `Option ⌥ + spacebar` to quickly switch to the iterm window from anywhere.  
 
-**Shell Integrations**
-Additionally, I have installed shell integrations from "iTerm2 menubar -> Install Shell Integration" for utilities like `imgcat`, etc.
+**Shell Integrations**  
+Additionally, I have installed shell integrations from "iTerm2 menubar -> Install Shell Integration" for utilities like `imgcat`, etc.  
 
-**switch to an open window or open new window from anywhere**
-<kbd>Option ⌥ + T</kbd>  ---> I think this doesn't work anymore.
+**switch to an open window or open new window from anywhere**  
+<kbd>Option ⌥ + T</kbd>  ---> I think this doesn't work anymore.  
 
-I set a custom keyboard shortcut from "Shortcuts.app" following [this guide](https://osxdaily.com/2023/02/06/open-terminal-by-keyboard-shortcut-on-mac/).
+I set a custom keyboard shortcut from "Shortcuts.app" following [this guide](https://osxdaily.com/2023/02/06/open-terminal-by-keyboard-shortcut-on-mac/).  
 
 **Terminal colors**
 
-I use "nightfox" text colorscheme downloaded from [edeneast's nvim colors | gh repo](https://github.com/EdenEast/nightfox.nvim/blob/main/extra/nightfox/nightfox.itermcolors). I also like [Everforest theme](https://github.com/icewind/everforest.iterm2).
+I use "nightfox" text colorscheme downloaded from [edeneast's nvim colors | gh repo](https://github.com/EdenEast/nightfox.nvim/blob/main/extra/nightfox/nightfox.itermcolors). I also like [Everforest theme](https://github.com/icewind/everforest.iterm2).  
 
 
 ## System Utils / Settings
 
 ### Keyboard
 
-"Settings -> Keyboard -> Text Input -> Edit"
-Uncheck all options like - smart quotes, double spacebar to add dot, correct spelling automatically, etc.
+"Settings -> Keyboard -> Text Input -> Edit"  
+Uncheck all options like - smart quotes, double spacebar to add dot, correct spelling automatically, etc.  
 
-Enable globe 🌐 key to show emoji pop-up.
+Enable globe 🌐 key to show emoji pop-up.  
 
 ### Screenshot
 
-- Full screen ss and auto save to a file (not copy to clipboard): Press `Command ⌘ + Option ⌥ + S`
-- Area ss and copy to clipboard (not save to file): Press `Shift ⇧ + Command ⌘ + S`
+- Full screen ss and auto save to a file (not copy to clipboard): Press `Command ⌘ + Option ⌥ + S`  
+- Area ss and copy to clipboard (not save to file): Press `Shift ⇧ + Command ⌘ + S`  
 ![Settings -> Keyboard -> Shortcuts custom ss shortcut](screenshot_keyboard_shortcut.png)
 
-**screenshot.app** -> Customize the "Options" to store the screenshots in `/Users/devp/Pictures` directory to avoid cluttering the Desktop.
+**screenshot.app** -> Customize the "Options" to store the screenshots in `/Users/devp/Pictures` directory to avoid cluttering the Desktop.  
 
 
 ### Preview
 
-Some files support preview without opening them by selecting the file and pressing <kbd>spacebar</kbd>.
+Some files support preview without opening them by selecting the file and pressing <kbd>spacebar</kbd>.  
 
 ## How to add "open with vscode" in macOS context menu?
 
-Use "Automator" to create "workflows" for "Quick Actions" and follow [this guide](https://gist.github.com/idleberg/bc65021a736e9139e3e31f7f2c761d5d).
+Use "Automator" to create "workflows" for "Quick Actions" and follow [this guide](https://gist.github.com/idleberg/bc65021a736e9139e3e31f7f2c761d5d).  
 
-Additionally, read about `open(1)` with the switch `-a` on man pages in iTerm2.
+Additionally, read about `open(1)` with the switch `-a` on man pages in iTerm2.  
 
-Edit this "Quick Action" at `~/Library/Services/Open\ in\ Visual\ Studio\ Code.workflow`. Double clicking this file in Finder will open it in Automator. Alternatively, we can Right Click and select "Show Package Contents" to reveal `Info.plist`, `Resources/`, etc.
+Edit this "Quick Action" at `~/Library/Services/Open\ in\ Visual\ Studio\ Code.workflow`. Double clicking this file in Finder will open it in Automator. Alternatively, we can Right Click and select "Show Package Contents" to reveal `Info.plist`, `Resources/`, etc.  
 
-Changing icon image? Change it through the Automator app itself. Choose a `.png` file. We will need to restart Finder after this (I haven't found other workarounds except relaunching Finder).
+Changing icon image? Change it through the Automator app itself. Choose a `.png` file. We will need to restart Finder after this (I haven't found other workarounds except relaunching Finder).  
 
 ## Relaunching Finder (or other unresponsive apps)
 
-<kbd>Command ⌘ + Option ⌥ + Esc</kbd> from anywhere. This is similar to "task manager running apps on windows". It opens up a pop-up with a list of running apps, which can be forced quit or relaunched.
+<kbd>Command ⌘ + Option ⌥ + Esc</kbd> from anywhere. This is similar to "task manager running apps on windows". It opens up a pop-up with a list of running apps, which can be forced quit or relaunched.  
 
 ## Go to a hidden folder's path in Finder
 
-<kbd>Command ⌘ + Shift ⇧ + G</kbd> anywhere in Finder window [will open a pop-up](https://apple.stackexchange.com/questions/63791/is-it-possible-to-edit-the-path-and-view-the-folder-path-in-the-finder) where we can type partial path name to get suggestions via fuzzy completions.
+<kbd>Command ⌘ + Shift ⇧ + G</kbd> anywhere in Finder window [will open a pop-up](https://apple.stackexchange.com/questions/63791/is-it-possible-to-edit-the-path-and-view-the-folder-path-in-the-finder) where we can type partial path name to get suggestions via fuzzy completions.   
 
 ## Show hidden files and folders in any "open file" dialog box pop-up
 
-Command <kbd>⌘</kbd> + Shift<kbd>⇧</kbd> + dot <kbd>.</kbd> in the 'open' dialog box [to show hidden items](https://apple.stackexchange.com/questions/186376/hotkey-to-show-hidden-files-and-folders-in-file-open-dialog). Pressing the key combination again will toggle it.
+Command <kbd>⌘</kbd> + Shift<kbd>⇧</kbd> + dot <kbd>.</kbd> in the 'open' dialog box [to show hidden items](https://apple.stackexchange.com/questions/186376/hotkey-to-show-hidden-files-and-folders-in-file-open-dialog). Pressing the key combination again will toggle it.  
 
 ## Finder settings
 
-Menu bar -> Finder -> Settings
+Menu bar -> Finder -> Settings  
 Customize preferences like default folder to open, sidebar folders to show, quick action tags (remove all), favourite tags (I removed all, I don't like the concept of color mapping), etc.
 
 ## Emoji Key
 
-Under keyboard settings, select "emoji" for <kbd>🌐</kbd> key.
+Under keyboard settings, select "emoji" for <kbd>🌐</kbd> key.  
 
 ## Desktop and Dock settings
 
-Remove "Show recent applications" in dock.
+Remove "Show recent applications" in dock.  
 
 ## .zshrc
 
@@ -226,24 +226,24 @@ Config file: [.zshrc](./zshrc) (path: `/Users/devp/.zshrc`)
 
 <kbd>command ⌘ + back tick ` </kbd>
 
-## Cycle through fullscreen apps
+## Cycle through fullscreen apps 
 
-<kbd>command ⌘ + tab ⇥</kbd>
+<kbd>command ⌘ + tab ⇥</kbd>  
 
-However, we need to enable it from
-"Settings -> Desktop & Dock -> Mission Control -> When switching to an application, switch to a Space with open windows for the application".
+However, we need to enable it from   
+"Settings -> Desktop & Dock -> Mission Control -> When switching to an application, switch to a Space with open windows for the application".  
 
 ![mission control tab switching ss](ss_mission_control_tab_switching.png)
 
-There are also other shortcuts for switching between different Spaces (fullscreen apps) -
+There are also other shortcuts for switching between different Spaces (fullscreen apps) -  
 
-<kbd>Control ^ + left arrow key ← </kbd>
-or
-<kbd>Control ^ + right arrow key → </kbd>
-or
-<kbd>Control ^ + 1 </kbd> for switching to space 1
+<kbd>Control ^ + left arrow key ← </kbd>  
+or  
+<kbd>Control ^ + right arrow key → </kbd> 
+or  
+<kbd>Control ^ + 1 </kbd> for switching to space 1  
 
-We might need to enable the last one from "Settings -> Keyboard -> keyboard shortcuts -> Mission Control -> Mission Control (expand)"
+We might need to enable the last one from "Settings -> Keyboard -> keyboard shortcuts -> Mission Control -> Mission Control (expand)"  
 
 ## Android Phone to Mac sync / file transfer
 
@@ -265,18 +265,10 @@ xcode-select --install
 [source: stackoverflow](https://stackoverflow.com/questions/34617452/how-to-update-xcode-from-command-line)
 
 
-## [Zen browser](https://zen-browser.app/)
-
-Using this instead of firefox.
-
-## [Zed editor](https://zed.dev/)
-
-Using this instead of Vscode.
-
 ## References
 
-- https://wangchujiang.com/awesome-mac/
-- https://www.youtube.com/@macvince
+- https://wangchujiang.com/awesome-mac/  
+- https://www.youtube.com/@macvince  
 - https://www.youtube.com/watch?v=tCYJ2Iy4ZEU
 - https://stackoverflow.com/questions/47350555/launch-multiple-instances-of-application-in-mac
 - [r/macapps | Top Mac Apps ... ](https://www.reddit.com/r/macapps/comments/1mg97ta/top_mac_apps_that_i_would_say_improve_the_mac_exp/)
