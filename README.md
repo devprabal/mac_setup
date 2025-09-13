@@ -264,6 +264,13 @@ xcode-select --install
 
 [source: stackoverflow](https://stackoverflow.com/questions/34617452/how-to-update-xcode-from-command-line)
 
+## [Zen browser](https://zen-browser.app/)  
+
+Using this instead of firefox.  
+
+## [Zed editor](https://zed.dev/)  
+
+Using this instead of Vscode.  
 
 ## References
 
