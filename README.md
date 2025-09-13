@@ -152,8 +152,14 @@ I set up a hotkey from iTerm2 settings `Option ⌥ + spacebar` to quickly switch
 Additionally, I have installed shell integrations from "iTerm2 menubar -> Install Shell Integration" for utilities like `imgcat`, etc.  
 
 **switch to an open window or open new window from anywhere**  
-<kbd>Option ⌥ + T</kbd>  
+<kbd>Option ⌥ + T</kbd>  ---> I think this doesn't work anymore.  
+
 I set a custom keyboard shortcut from "Shortcuts.app" following [this guide](https://osxdaily.com/2023/02/06/open-terminal-by-keyboard-shortcut-on-mac/).  
+
+**Terminal colors**
+
+I use "nightfox" text colorscheme downloaded from [edeneast's nvim colors | gh repo](https://github.com/EdenEast/nightfox.nvim/blob/main/extra/nightfox/nightfox.itermcolors). I also like [Everforest theme](https://github.com/icewind/everforest.iterm2).  
+
 
 ## System Utils / Settings
 
