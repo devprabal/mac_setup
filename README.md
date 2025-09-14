@@ -279,6 +279,7 @@ Using this instead of firefox, with the following extensions.
 ## [Zed editor](https://zed.dev/)  
 
 Using this instead of Vscode.  
+Added "Open with Zed" in the Quick Action context menu that pops up on right click [in the similar way as previously done for vscode](#how-to-add-open-with-vscode-in-macos-context-menu).  
 
 ## [Numi](https://github.com/nikolaeu/numi)
 
