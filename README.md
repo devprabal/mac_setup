@@ -156,15 +156,19 @@ Additionally, I have installed shell integrations from "iTerm2 menubar -> Instal
 
 I set a custom keyboard shortcut from "Shortcuts.app" following [this guide](https://osxdaily.com/2023/02/06/open-terminal-by-keyboard-shortcut-on-mac/).  
 
+**quick menu function**  
+<kbd>Shift ⇧ + Cmd ⌘ + O</kbd>  keystroke in the new update makes it super easy to find any settings. I am using some transparency and blur for aesthetic appeal. 
+
 **Terminal colors**
 
 I use "nightfox" text colorscheme downloaded from [edeneast's nvim colors | gh repo](https://github.com/EdenEast/nightfox.nvim/blob/main/extra/nightfox/nightfox.itermcolors). I also like [Everforest theme](https://github.com/icewind/everforest.iterm2).  
 
 **Terminal settings**
 
-Saved in this file [iterm2 config](./iTerm2State_devp_18sep2025_1308.itermexport).  
+~~Saved in this file [iterm2 config](./iTerm2State_devp_18sep2025_1308.itermexport).~~  
+Saved in the file [devp_iterm2_settings.json](./devp_iterm2_settings.json).  
 
-## [Rio](https://rioterm.com/)
+## ~~[Rio](https://rioterm.com/)~~ NOT using anymore
 
 Using an alternative terminal in addition to iterm2 because it is based on [alacritty](https://alacritty.org/) and written in rust. Also it has fancy blurs, etc.
 
