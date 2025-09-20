@@ -1,5 +1,7 @@
 # Customizing my Macbook Air M2 (Eiji)
 
+> How does it appear? See [screenshots](./screenshots.md).    
+
 Originally, I had kept this document under `dotfiles_mac`, however, there might not be any "dotfiles" in linux-style-ricing sense. This will contain settings, apps, profile-exports, exports from apps (which support their settings to be exported), etc.   
 
 Ofcourse, this is not meant to be an exhaustive list, even for myself, because there are numerous other small tweaks here and there that I keep on doing to make my workflow more comfortable. However, this document will list out some "major" tools / tweaks.   
