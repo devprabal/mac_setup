@@ -182,10 +182,12 @@ terminal colorschemes: [dayfox](./terminal_themes/dayfox.toml), [nightfox](./ter
 
 ### Keyboard
 
-"Settings -> Keyboard -> Text Input -> Edit"  
+- "Settings -> Keyboard -> Text Input -> Edit"  
 Uncheck all options like - smart quotes, double spacebar to add dot, correct spelling automatically, etc.  
 
-Enable globe 🌐 key to show emoji pop-up.  
+- Show emoji pop-up -> See [emoji-key section](#emoji-key)  
+
+- [Change to US keyboard layout to fix `tilde` printing `₹` symbol by default in mac os Tahoe](https://discussions.apple.com/thread/256144314?sortBy=rank)  
 
 ### Screenshot
 
