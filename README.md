@@ -232,7 +232,7 @@ Customize preferences like default folder to open, sidebar folders to show, quic
 ## [yazi](https://yazi-rs.github.io/)
 
 Terminal file manager. Often I find this one quicker to navigate or browse than using Finder.  
-Config -> create `.toml` files under `~.config/yazi/` as instructed in the [official documentation](https://yazi-rs.github.io/docs/configuration/overview). For theme, I use [catppuccin macchiato](https://github.com/yazi-rs/flavors/blob/main/catppuccin-macchiato.yazi/flavor.toml).  
+Config -> create `.toml` files under `~/.config/yazi/` as instructed in the [official documentation](https://yazi-rs.github.io/docs/configuration/overview). For theme, I use [catppuccin macchiato](https://github.com/yazi-rs/flavors/blob/main/catppuccin-macchiato.yazi/flavor.toml).  
 
 ## [neofetch](https://github.com/dylanaraps/neofetch) and [fastfetch](https://github.com/fastfetch-cli/fastfetch)
 
