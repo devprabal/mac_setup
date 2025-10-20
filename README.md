@@ -294,7 +294,8 @@ xcode-select --install
 
 ## [Zen browser](https://zen-browser.app/)  
 
-Using this instead of firefox, with the following extensions.
+Using this instead of firefox, with the following extensions.  
+I use the following extensions ->   
 ![firefox and zen extensions](./ff_extensions.png)  
 
 ## [Zed editor](https://zed.dev/)  
