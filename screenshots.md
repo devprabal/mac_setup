@@ -17,3 +17,6 @@ Zed Editor again
 
 Zen browser
 ![Zen browser](./screenshots/zen_ss_1.png)  
+
+Yazi terminal file browser
+![Yazi](./screenshots/yazi_ss.png)  
