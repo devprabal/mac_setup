@@ -229,6 +229,15 @@ Command <kbd>⌘</kbd> + Shift<kbd>⇧</kbd> + dot <kbd>.</kbd> in the 'open' di
 Menu bar -> Finder -> Settings  
 Customize preferences like default folder to open, sidebar folders to show, quick action tags (remove all), favourite tags (I removed all, I don't like the concept of color mapping), etc.
 
+## [yazi](https://yazi-rs.github.io/)
+
+Terminal file manager. Often I find this one quicker to navigate or browse than using Finder.  
+Config -> create `.toml` files under `~.config/yazi/` as instructed in the [official documentation](https://yazi-rs.github.io/docs/configuration/overview). For theme, I use [catppuccin macchiato](https://github.com/yazi-rs/flavors/blob/main/catppuccin-macchiato.yazi/flavor.toml).  
+
+## [neofetch](https://github.com/dylanaraps/neofetch) and [fastfetch](https://github.com/fastfetch-cli/fastfetch)
+
+For system stats on terminal.  
+
 ## Emoji Key
 
 Under keyboard settings, select "emoji" for <kbd>🌐</kbd> key.  
