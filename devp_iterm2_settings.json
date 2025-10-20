@@ -160,7 +160,7 @@
   },
   "Vertical Spacing" : 1,
   "Use Tab Color (Light)" : false,
-  "Columns" : 101,
+  "Columns" : 140,
   "Ansi 2 Color (Light)" : {
     "Red Component" : 0.65490196078431373,
     "Color Space" : "sRGB",
@@ -300,7 +300,7 @@
   "Set Local Environment Vars" : 2,
   "Faint Text Alpha (Dark)" : 0.5,
   "Blur Radius" : 24.871947544642858,
-  "Rows" : 28,
+  "Rows" : 34,
   "Background Color (Light)" : {
     "Red Component" : 0.11764705882352941,
     "Color Space" : "sRGB",
