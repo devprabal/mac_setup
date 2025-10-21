@@ -311,6 +311,10 @@ Using both cli (example, `numi-cli "1kg in pounds"`) and the app for easy conver
 
 Using this as an alternative desktop app to the official telegram app, for now.  
 
+## [scrcpy](https://github.com/Genymobile/scrcpy)
+
+Screen mirroring on mac! Works out of the box! Couldn't believe this project is so good! Just make sure to turn on "USB debugging" in Developer Options in the phone.
+
 ## References
 
 - https://wangchujiang.com/awesome-mac/  

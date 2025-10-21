@@ -20,3 +20,6 @@ Zen browser
 
 Yazi terminal file browser
 ![Yazi](./screenshots/yazi_ss.png)  
+
+Scrcpy 
+![scrcpy](./screenshots/scrcpy_ss.png)  
