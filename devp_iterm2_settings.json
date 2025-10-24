@@ -1,10 +1,10 @@
 {
-  "Ansi 12 Color (Light)" : {
-    "Red Component" : 0.22745098039215686,
+  "Ansi 0 Color" : {
+    "Red Component" : 0.47843137254901963,
     "Color Space" : "sRGB",
-    "Blue Component" : 0.77254901960784317,
+    "Blue Component" : 0.47058823529411764,
     "Alpha Component" : 1,
-    "Green Component" : 0.58039215686274515
+    "Green Component" : 0.51764705882352946
   },
   "Ansi 15 Color (Dark)" : {
     "Red Component" : 1,
@@ -68,6 +68,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0.21568627450980393
   },
+  "Only The Default BG Color Uses Transparency" : false,
   "Scrollback Lines" : 1000,
   "Badge Color (Dark)" : {
     "Red Component" : 0.90196078431372551,
@@ -84,7 +85,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0.51764705882352946
   },
-  "Transparency" : 0.29754464285714288,
+  "Transparency" : 0.018229166666666668,
   "Use Bright Bold" : true,
   "Horizontal Spacing" : 1,
   "Ansi 13 Color (Light)" : {
@@ -299,7 +300,7 @@
   },
   "Set Local Environment Vars" : 2,
   "Faint Text Alpha (Dark)" : 0.5,
-  "Blur Radius" : 24.871947544642858,
+  "Blur Radius" : 24.563918954217328,
   "Rows" : 34,
   "Background Color (Light)" : {
     "Red Component" : 0.11764705882352941,
@@ -388,7 +389,6 @@
     "Alpha Component" : 1,
     "Green Component" : 0.21568627450980393
   },
-  "Background Image Location" : "",
   "Use Underline Color" : false,
   "Ansi 5 Color (Dark)" : {
     "Red Component" : 0.83921568627450982,
@@ -647,13 +647,13 @@
     "Alpha Component" : 1,
     "Green Component" : 0.77647058823529413
   },
-  "Ansi 0 Color" : {
-    "Red Component" : 0.47843137254901963,
-    "Color Space" : "sRGB",
-    "Blue Component" : 0.47058823529411764,
-    "Alpha Component" : 1,
-    "Green Component" : 0.51764705882352946
-  },
+  "Non-ASCII Anti Aliased" : true,
   "Close Sessions On End" : true,
-  "Non-ASCII Anti Aliased" : true
+  "Ansi 12 Color (Light)" : {
+    "Red Component" : 0.22745098039215686,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.77254901960784317,
+    "Alpha Component" : 1,
+    "Green Component" : 0.58039215686274515
+  }
 }
