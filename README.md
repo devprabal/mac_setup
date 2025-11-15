@@ -315,6 +315,10 @@ Using this as an alternative desktop app to the official telegram app, for now.
 
 Screen mirroring on mac! Works out of the box! Couldn't believe this project is so good! Just make sure to turn on "USB debugging" in Developer Options in the phone.
 
+## [WailBrew](https://www.wailbrew.app/)
+
+A minimalistic and beautiful GUI for Homebrew package management on macOS. Sometimes, a UI interface can help to upgrade packages and / or uninstall them in a better way.
+
 ## References
 
 - https://wangchujiang.com/awesome-mac/  
