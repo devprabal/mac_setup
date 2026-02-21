@@ -23,3 +23,6 @@ Yazi terminal file browser
 
 Scrcpy 
 ![scrcpy](./screenshots/scrcpy_ss.png)  
+
+Horzono
+![horzono](./screenshots/horzono_ss.png)  

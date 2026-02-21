@@ -46,7 +46,7 @@ $ bat --config-file
 /Users/devp/.config/bat/config
 ```
 
-- Config file: [`bat_config`](./bat_config)  (path: `/Users/devp/.config/bat/config`)  
+- Config file: [`bat_config`](./assets/bat_config)  (path: `/Users/devp/.config/bat/config`)  
 
 ## [fig](https://fig.io/) (❗️ not working)
 
@@ -69,8 +69,8 @@ copyq clipboard
 
 ⚠️ ~~The app needs to be launched everytime I think~~  -> fix it from "File->Preferences"  
 
-- Config file: [`copyq_config.cpq`](./copyq_config.cpq) (path: import / export from "File->Preferences")    
-- Theme file (and path): [`/Users/devp/.config/copyq/themes/copyq_arial_large_solarized.ini`](./copyq_arial_large_solarized.ini)   
+- Config file: [`copyq_config.cpq`](./assets/copyq_config.cpq) (path: import / export from "File->Preferences")    
+- Theme file (and path): [`/Users/devp/.config/copyq/themes/copyq_arial_large_solarized.ini`](./assets/copyq_arial_large_solarized.ini)   
 
 ## ~~[Raycast](https://www.raycast.com/)~~ NOT using anymore
 
@@ -138,7 +138,7 @@ Install [qlmarkdown](https://github.com/toland/qlmarkdown) and launch it once fr
 
 ## vscode navigation
 
-![ss_vscode_navigation_shortcut](./ss_vscode_navigation_shortcut.jpeg)
+![ss_vscode_navigation_shortcut](./screenshots/ss_vscode_navigation_shortcut.jpeg)
 
 Remove other pre-existing keybindings using the same keystrokes as below  -  
 
@@ -167,14 +167,14 @@ I use "nightfox" text colorscheme downloaded from [edeneast's nvim colors | gh r
 
 **Terminal settings**
 
-~~Saved in this file [iterm2 config](./iTerm2State_devp_18sep2025_1308.itermexport).~~  
-Saved in the file [devp_iterm2_settings.json](./devp_iterm2_settings.json).  
+~~Saved in this file [iterm2 config](./assets/iTerm2State_devp_18sep2025_1308.itermexport).~~  
+Saved in the file [devp_iterm2_settings.json](./assets/devp_iterm2_settings.json).  
 
 ## ~~[Rio](https://rioterm.com/)~~ NOT using anymore
 
 Using an alternative terminal in addition to iterm2 because it is based on [alacritty](https://alacritty.org/) and written in rust. Also it has fancy blurs, etc.
 
-config file: [rio_config.toml](./rio_config.toml)
+config file: [rio_config.toml](./assets/rio_config.toml)
 
 terminal colorschemes: [dayfox](./terminal_themes/dayfox.toml), [nightfox](./terminal_themes/nightfox.toml), [terrafox](./terminal_themes/terrafox.toml), [nordfox](./terminal_themes/nordfox.toml)
 
@@ -193,7 +193,7 @@ Uncheck all options like - smart quotes, double spacebar to add dot, correct spe
 
 - Full screen ss and auto save to a file (not copy to clipboard): Press `Command ⌘ + Option ⌥ + S`  
 - Area ss and copy to clipboard (not save to file): Press `Shift ⇧ + Command ⌘ + S`  
-![Settings -> Keyboard -> Shortcuts custom ss shortcut](screenshot_keyboard_shortcut.png)
+![Settings -> Keyboard -> Shortcuts custom ss shortcut](./screenshots/screenshot_keyboard_shortcut.png)
 
 **screenshot.app** -> Customize the "Options" to store the screenshots in `/Users/devp/Pictures` directory to avoid cluttering the Desktop.  
 
@@ -248,7 +248,7 @@ Remove "Show recent applications" in dock.
 
 ## .zshrc
 
-Config file: [.zshrc](./zshrc) (path: `/Users/devp/.zshrc`)
+Config file: [.zshrc](./assets/zshrc) (path: `/Users/devp/.zshrc`)
 
 ## Cycle through the windows of the same app
 
@@ -261,7 +261,7 @@ Config file: [.zshrc](./zshrc) (path: `/Users/devp/.zshrc`)
 However, we need to enable it from   
 "Settings -> Desktop & Dock -> Mission Control -> When switching to an application, switch to a Space with open windows for the application".  
 
-![mission control tab switching ss](ss_mission_control_tab_switching.png)
+![mission control tab switching ss](./screenshots/ss_mission_control_tab_switching.png)
 
 There are also other shortcuts for switching between different Spaces (fullscreen apps) -  
 
@@ -273,7 +273,7 @@ or
 
 We might need to enable the last one from "Settings -> Keyboard -> keyboard shortcuts -> Mission Control -> Mission Control (expand)"  
 
-## Android Phone to Mac sync / file transfer
+## ~~Android Phone to Mac sync / file transfer~~ NOT using anymore  
 
 Install a variant of [kde connect](https://soduto.com/) on all devices (pixel, mac).
 
@@ -296,7 +296,7 @@ xcode-select --install
 
 Using this instead of firefox, with the following extensions.  
 I use the following extensions ->   
-![firefox and zen extensions](./ff_extensions.png)  
+![firefox and zen extensions](./screenshots/ff_extensions.png)  
 
 ## [Zed editor](https://zed.dev/)  
 
