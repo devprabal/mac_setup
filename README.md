@@ -277,7 +277,7 @@ We might need to enable the last one from "Settings -> Keyboard -> keyboard shor
 
 Install a variant of [kde connect](https://soduto.com/) on all devices (pixel, mac).
 
-## [Pure Paste](https://sindresorhus.com/pure-paste)
+## ~~[Pure Paste](https://sindresorhus.com/pure-paste)~~ NOT using anymore  
 
 > copy from anywhere, paste without formatting (runs in background).
 
@@ -303,11 +303,11 @@ I use the following extensions ->
 Using this instead of Vscode.  
 Added "Open with Zed" in the Quick Action context menu that pops up on right click [in the similar way as previously done for vscode](#how-to-add-open-with-vscode-in-macos-context-menu).  
 
-## [Numi](https://github.com/nikolaeu/numi)
+## ~~[Numi](https://github.com/nikolaeu/numi)~~ NOT using anymore  
 
 Using both cli (example, `numi-cli "1kg in pounds"`) and the app for easy conversions (in natural language) of many trivial items that erstwhile needed web search.    
 
-## [Ayugram](https://github.com/AyuGram/AyuGramDesktop)
+## ~~[Ayugram](https://github.com/AyuGram/AyuGramDesktop)~~ NOT using anymore  
 
 Using this as an alternative desktop app to the official telegram app, for now.  
 
@@ -315,9 +315,22 @@ Using this as an alternative desktop app to the official telegram app, for now.
 
 Screen mirroring on mac! Works out of the box! Couldn't believe this project is so good! Just make sure to turn on "USB debugging" in Developer Options in the phone.
 
-## [WailBrew](https://www.wailbrew.app/)
+## [WailBrew](https://www.wailbrew.app/)  
 
 A minimalistic and beautiful GUI for Homebrew package management on macOS. Sometimes, a UI interface can help to upgrade packages and / or uninstall them in a better way.
+
+## [Horzono](https://micropixels.software/apps/horzono)
+
+World clock on the top menu bar.  
+
+## [Better Display](https://github.com/waydabber/BetterDisplay)  
+
+Easy workaround for scaling issues on 2K or 4K monitor. And control brightness of external monitor with default buttons.  
+
+## [ZeroTier](https://www.zerotier.com/)  
+
+Connect to raspberry for other devices running zerotier seamlessly.  
+
 
 ## References
 
