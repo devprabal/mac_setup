@@ -331,6 +331,9 @@ Easy workaround for scaling issues on 2K or 4K monitor. And control brightness o
 
 Connect to raspberry for other devices running zerotier seamlessly.  
 
+## [XP Pen G-Star640](https://www.xp-pen.com/download/star-g640.html)
+
+Download the latest s/w and drivers (XPPenMac_4.0.15_260424) from official site and install them and give it perms, etc. before using the pen tablet on tldraw website. Otherwise, it won't work. Then configure the pen using the installed s/w. Find the config settings here [PenTablet_Config_2026-05-02.pcfg](./assets/PenTablet_Config_2026-05-02.pcfg).  
 
 ## References
 
