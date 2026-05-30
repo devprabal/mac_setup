@@ -48,7 +48,7 @@ $ bat --config-file
 
 - Config file: [`bat_config`](./assets/bat_config)  (path: `/Users/devp/.config/bat/config`)  
 
-## [fig](https://fig.io/) (❗️ not working)
+## ~~[fig](https://fig.io/)~~ (❗️ not working) NOT using anymore  
 
 > Autocomplete for terminal  
 
@@ -101,7 +101,7 @@ Hotkey `Shift + Command + V`
 
 Allow it to start on log in from the hidden bar app settings.  
 
-## [app cleaner](https://freemacsoft.net/appcleaner/)
+## ~~[app cleaner](https://freemacsoft.net/appcleaner/)~~ NOT using anymore  
 
 > delete other files related to an app when removing app from "Applications" folder (uninstalling)  
 
@@ -153,8 +153,8 @@ I set up a hotkey from iTerm2 settings `Option ⌥ + spacebar` to quickly switch
 **Shell Integrations**  
 Additionally, I have installed shell integrations from "iTerm2 menubar -> Install Shell Integration" for utilities like `imgcat`, etc.  
 
-**switch to an open window or open new window from anywhere**  
-<kbd>Option ⌥ + T</kbd>  ---> I think this doesn't work anymore.  
+~~**switch to an open window or open new window from anywhere**~~  
+~~<kbd>Option ⌥ + T</kbd>~~  ---> I think this doesn't work anymore.  
 
 I set a custom keyboard shortcut from "Shortcuts.app" following [this guide](https://osxdaily.com/2023/02/06/open-terminal-by-keyboard-shortcut-on-mac/).  
 
@@ -292,13 +292,13 @@ xcode-select --install
 
 [source: stackoverflow](https://stackoverflow.com/questions/34617452/how-to-update-xcode-from-command-line)
 
-## [Zen browser](https://zen-browser.app/)  
+## ~~[Zen browser](https://zen-browser.app/)~~ NOT using anymore    
 
 Using this instead of firefox, with the following extensions.  
 I use the following extensions ->   
 ![firefox and zen extensions](./screenshots/ff_extensions.png)  
 
-## [Zed editor](https://zed.dev/)  
+## ~~[Zed editor](https://zed.dev/)~~ NOT using anymore    
 
 Using this instead of Vscode.  
 Added "Open with Zed" in the Quick Action context menu that pops up on right click [in the similar way as previously done for vscode](#how-to-add-open-with-vscode-in-macos-context-menu).  
@@ -315,7 +315,7 @@ Using this as an alternative desktop app to the official telegram app, for now.
 
 Screen mirroring on mac! Works out of the box! Couldn't believe this project is so good! Just make sure to turn on "USB debugging" in Developer Options in the phone.
 
-## [WailBrew](https://www.wailbrew.app/)  
+## ~~[WailBrew](https://www.wailbrew.app/)~~ NOT using anymore  
 
 A minimalistic and beautiful GUI for Homebrew package management on macOS. Sometimes, a UI interface can help to upgrade packages and / or uninstall them in a better way.
 
@@ -335,6 +335,10 @@ Connect to raspberry for other devices running zerotier seamlessly.
 
 Download the latest s/w and drivers (XPPenMac_4.0.15_260424) from official site and install them and give it perms, etc. before using the pen tablet on tldraw website. Otherwise, it won't work. Then configure the pen using the installed s/w. Find the config settings here [PenTablet_Config_2026-05-02.pcfg](./assets/PenTablet_Config_2026-05-02.pcfg).  
 
+## Brave browser 
+
+With sync chain enabled because it is difficult to export settings to a file (duh).
+
 ## References
 
 - https://wangchujiang.com/awesome-mac/  
@@ -342,3 +346,4 @@ Download the latest s/w and drivers (XPPenMac_4.0.15_260424) from official site 
 - https://www.youtube.com/watch?v=tCYJ2Iy4ZEU
 - https://stackoverflow.com/questions/47350555/launch-multiple-instances-of-application-in-mac
 - [r/macapps | Top Mac Apps ... ](https://www.reddit.com/r/macapps/comments/1mg97ta/top_mac_apps_that_i_would_say_improve_the_mac_exp/)
+****
