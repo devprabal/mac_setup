@@ -212,6 +212,14 @@ Edit this "Quick Action" at `~/Library/Services/Open\ in\ Visual\ Studio\ Code.w
 
 Changing icon image? Change it through the Automator app itself. Choose a `.png` file. We will need to restart Finder after this (I haven't found other workarounds except relaunching Finder).  
 
+### How to open unsafe apps (that mac assumes they are)  
+
+macOS adds an attribute called `com.apple.quarantine`  to apps that are not notarized when downloading or installing them. This command is used to manually remove that attribute. Run   
+
+```bash
+sudo xattr -rd com.apple.quarantine /Applications/blinko.app
+```
+
 ## Relaunching Finder (or other unresponsive apps)
 
 <kbd>Command ⌘ + Option ⌥ + Esc</kbd> from anywhere. This is similar to "task manager running apps on windows". It opens up a pop-up with a list of running apps, which can be forced quit or relaunched.  
