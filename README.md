@@ -404,6 +404,12 @@ Lightweight program to fix natural scrolling for mouse without changing that for
 
 Extremely lightweight (written in C) photo gallery.  
 
+## [vorssaint](https://github.com/vorssaint/vorssaint-utils)
+
+I use it for text expansion (keyword triggering) and to check health (cpu, network, disk, etc.) from the menu bar.  
+But it can do so many things!  
+My config file: [vorssaint_config.plist](./assets/vorssaint_config.plist)  
+
 ## References
 
 - https://wangchujiang.com/awesome-mac/  
