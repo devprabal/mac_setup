@@ -1,6 +1,5 @@
 export VISUAL="nvim"
 export EDITOR="$VISUAL"
-export PATH="/opt/homebrew/bin:$PATH"
 
 alias gits='git status'
 alias gitb='git branch'
@@ -8,11 +7,31 @@ alias ls='ls -G'
 alias batcat='bat'
 alias gitlog='git log --all --decorate --oneline --graph'
 
+export PATH="/opt/homebrew/bin:$PATH"
+export PATH="/opt/homebrew/sbin:$PATH"
+export PATH="/opt/homebrew/lib/python3.11/site-packages:$PATH"
+export PATH="/Users/devp/Documents/forges/open/ccache-4.13-darwin:$PATH"
+
+## https://gist.github.com/scivision/16c2ca1dc250f54d34f1a1a35596f4a0 
+export OpenMP_ROOT=$(brew --prefix)/opt/libomp
+export LDFLAGS="$LDFLAGS -L${OpenMP_ROOT}/lib"
+
+#export LDFLAGS="-L/opt/homebrew/opt/libomp/lib"
+#export CPPFLAGS="-I/opt/homebrew/opt/libomp/include"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 autoload -Uz compinit && compinit
 
-export PATH="/opt/homebrew/lib/python3.11/site-packages:$PATH"
+source ~/.llama-completion.bash
+
 eval "$(starship init zsh)"
 
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
 
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh

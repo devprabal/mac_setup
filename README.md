@@ -113,6 +113,10 @@ Turn on smart clean detection option from the app settings.
 
 - Using this now instead of AppCleaner. It is open source and free and recommended on [reddit](https://www.reddit.com/r/mac/comments/1dmzcph/how_to_clean_my_mac/).
 
+## [mole](https://mole.fit/)
+
+Clean up mac, uninstall softwares, remove bloat, caches, etc. from command line. Easy to use TUI, deep cleaning.  
+
 ## [dropzone](https://apps.apple.com/us/app/dropzone-4/id1485052491?mt=12)
 
 > simple drag and drop, temporary file storage area, launch folders, quick actions, etc. from menu bar  
@@ -130,11 +134,15 @@ To change the default "Open with" app for music files, follow these steps from [
 - Select an app — this will be the app that opens all files of this file type from now on
 - Click 'Change All'
 
+Install plugin [vlsub-opensubtitles-com](https://github.com/opensubtitles/vlsub-opensubtitles-com) to download subs from vlc itself.  
+
 ## Show markdown in Finder Preview
 
-Install [qlmarkdown](https://github.com/toland/qlmarkdown) and launch it once from the app drawer.  
+~~Install [qlmarkdown](https://github.com/toland/qlmarkdown) and launch it once from the app drawer.~~  
 
-*Might as well have a look at other [quick look plugins](https://github.com/sindresorhus/quick-look-plugins)*  
+~~*Might as well have a look at other [quick look plugins](https://github.com/sindresorhus/quick-look-plugins)*~~  
+
+Install [markdown-preview](https://github.com/pluk-inc/markdown-preview).  
 
 ## vscode navigation
 
@@ -145,7 +153,7 @@ Remove other pre-existing keybindings using the same keystrokes as below  -
 `Option ⌥ + ←`  backward  
 `Option ⌥ + →`  forward  
 
-## iterm2
+## ~~iterm2~~ NOT using anymore
 
 **quick switch**  
 I set up a hotkey from iTerm2 settings `Option ⌥ + spacebar` to quickly switch to the iterm window from anywhere.  
@@ -177,6 +185,20 @@ Using an alternative terminal in addition to iterm2 because it is based on [alac
 config file: [rio_config.toml](./assets/rio_config.toml)
 
 terminal colorschemes: [dayfox](./terminal_themes/dayfox.toml), [nightfox](./terminal_themes/nightfox.toml), [terrafox](./terminal_themes/terrafox.toml), [nordfox](./terminal_themes/nordfox.toml)
+
+## [Tabby](https://tabby.sh/)
+
+Using tabby as default terminal with this [config file](./assets/tabby_config.yaml), saved at the path `/Users/devp/Library/Application Support/tabby`.  
+It can save passwords, save ssh sessions, customize different ssh sessions, has tabs, etc.  
+- Fonts: [IoskeleyMono](https://github.com/ahatem/IoskeleyMono) and [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack)  
+- Autocomplete using [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions).  
+- Terminal prompt: [starship](#starship).  
+
+## [Ghostty](https://ghostty.org/)
+
+Alternative terminal installed just in case.  
+Config file path: `'/Users/devp/Library/Application Support/com.mitchellh.ghostty/config.ghostty'`  
+Config file: [ghostty_config file](./assets/ghostty_config.ghostty)  
 
 ## System Utils / Settings
 
@@ -346,6 +368,41 @@ Download the latest s/w and drivers (XPPenMac_4.0.15_260424) from official site 
 ## Brave browser 
 
 With sync chain enabled because it is difficult to export settings to a file (duh).
+
+## [fzf](https://github.com/junegunn/fzf)  
+
+Fuzzy find files recursively in a directory from terminal.  
+
+## [Calendr](https://github.com/pakerwreah/Calendr)  
+
+Small (simple and clutter free) calendar in the menu bar.  
+
+## [Dropover](https://dropoverapp.com/)  
+
+Move files (Cut paste) by selecting and shaking them to place it in a "shelf" (dropover hover window) that persists, and later drag them to any target folder. I use the paid version.  
+
+## ~~[Audiorecorder](https://audio.macrecorder.app/)~~ NOT using anymore  
+
+Simple audio recorder for mac.  
+
+## [AriaNg](https://ariang.mayswind.net/)  
+
+Single page html frontend for `aria2c` used for downloading large files in chunks.  
+
+```bash
+aria2c --conf-path=/Users/devp/.aria2/aria2.conf  
+```
+
+Config file: [aria2c.conf](./assets/aria2c.conf)  
+Config file path: `Users/devp/.aria2/aria2.conf`  
+
+## [mos](https://mos.caldis.me/?utm_source=chatgpt.com)  
+
+Lightweight program to fix natural scrolling for mouse without changing that for the trackpad.  
+
+## [Phoenix slides](https://blyt.net/phxslides/)  
+
+Extremely lightweight (written in C) photo gallery.  
 
 ## References
 

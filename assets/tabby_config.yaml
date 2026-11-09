@@ -1,0 +1,387 @@
+version: 8
+profiles:
+  - type: ssh
+    name: rpi-local
+    icon: fas fa-microchip
+    options:
+      user: devpogi
+      algorithms: {}
+      input: {}
+      host: devrpi.local
+      x11: true
+      auth: password
+    weight: -1
+    color: '#ff99ff'
+    terminalColorScheme:
+      name: base2tone-forest-dark
+      foreground: '#a1b5a1'
+      background: '#2a2d2a'
+      cursor: '#656b47'
+      colors:
+        - '#2a2d2a'
+        - '#5c705c'
+        - '#bfd454'
+        - '#e5fb79'
+        - '#687d68'
+        - '#bfd454'
+        - '#8fae8f'
+        - '#a1b5a1'
+        - '#535f53'
+        - '#cbe25a'
+        - '#353b35'
+        - '#485148'
+        - '#5e6e5e'
+        - '#c8e4c8'
+        - '#b1c44f'
+        - '#f0fff0'
+    id: ssh:custom:rpi-local:d152ac27-30ef-409d-9702-0423431d4018
+  - type: ssh
+    name: rpi-zerotier
+    icon: fas fa-microchip
+    options:
+      host: 10.212.244.230
+      user: devpogi
+      algorithms: {}
+      input: {}
+      auth: password
+    weight: -1
+    color: '#c51d4a'
+    terminalColorScheme:
+      name: Arthur
+      foreground: '#ddeedd'
+      background: '#1c1c1c'
+      cursor: '#e2bbef'
+      colors:
+        - '#3d352a'
+        - '#cd5c5c'
+        - '#86af80'
+        - '#e8ae5b'
+        - '#6495ed'
+        - '#deb887'
+        - '#b0c4de'
+        - '#bbaa99'
+        - '#554444'
+        - '#cc5533'
+        - '#88aa22'
+        - '#ffa75d'
+        - '#87ceeb'
+        - '#996600'
+        - '#b0c4de'
+        - '#ddccbb'
+    id: ssh:custom:rpi-zerotier:e0fa4539-7b8d-4f1f-926b-0a1457ea6aa4
+  - type: local
+    name: zsh
+    options:
+      command: /bin/zsh
+      args:
+        - '--login'
+      cwd: /Users/devp/Documents
+      env: {}
+      shellType: unix
+      homeDirArgs: []
+    terminalColorScheme:
+      name: Tomorrow Night
+      foreground: '#c5c8c6'
+      background: '#1d1f21'
+      cursor: '#c5c8c6'
+      colors:
+        - '#000000'
+        - '#cc6666'
+        - '#b5bd68'
+        - '#f0c674'
+        - '#81a2be'
+        - '#b294bb'
+        - '#8abeb7'
+        - '#ffffff'
+        - '#000000'
+        - '#cc6666'
+        - '#b5bd68'
+        - '#f0c674'
+        - '#81a2be'
+        - '#b294bb'
+        - '#8abeb7'
+        - '#ffffff'
+    id: local:custom:zsh:7a2921ea-fec3-4a48-9e12-0bb52ef8cc8d
+    icon: fas fa-terminal
+    color: '#5ace71'
+groups: []
+configSync:
+  parts: {}
+hotkeys:
+  toggle-window:
+    - Ctrl-Space
+  copy-current-path: []
+  ctrl-c:
+    - Ctrl-C
+  copy:
+    - ⌘-C
+  paste:
+    - ⌘-V
+  clear:
+    - ⌘-K
+  select-all:
+    - ⌘-A
+  zoom-in:
+    - ⌘-=
+    - ⌘-Shift-=
+  zoom-out:
+    - ⌘--
+    - ⌘-Shift--
+  reset-zoom:
+    - ⌘-0
+  home:
+    - ⌘-Left
+    - Home
+  end:
+    - ⌘-Right
+    - End
+  previous-word:
+    - ⌥-Left
+  next-word:
+    - ⌥-Right
+  delete-previous-word:
+    - ⌥-Backspace
+  delete-line:
+    - ⌘-Backspace
+  delete-next-word:
+    - ⌥-Delete
+  search:
+    - ⌘-F
+  pane-focus-all:
+    - ⌘-Shift-I
+  focus-all-tabs:
+    - ⌘-⌥-Shift-I
+  scroll-to-top:
+    - Shift-PageUp
+  scroll-page-up:
+    - ⌥-PageUp
+  scroll-up:
+    - Ctrl-Shift-Up
+  scroll-down:
+    - Ctrl-Shift-Down
+  scroll-page-down:
+    - ⌥-PageDown
+  scroll-to-bottom:
+    - Shift-PageDown
+  restart-telnet-session: []
+  restart-ssh-session: []
+  launch-winscp: []
+  open-sftp: []
+  settings-tab: {}
+  settings:
+    - ⌘-,
+  serial:
+    - Alt-K
+  restart-serial-session: []
+  new-tab:
+    - ⌘-T
+  new-window:
+    - ⌘-N
+  profile: {}
+  profile-selectors: {}
+  group-selectors: {}
+  toggle-fullscreen:
+    - Ctrl+⌘+F
+  close-tab:
+    - ⌘-W
+  reopen-tab:
+    - ⌘-Shift-T
+  toggle-last-tab: []
+  rename-tab:
+    - ⌘-R
+  next-tab:
+    - Ctrl-Tab
+  previous-tab:
+    - Ctrl-Shift-Tab
+  move-tab-left:
+    - ⌘-Shift-Left
+  move-tab-right:
+    - ⌘-Shift-Right
+  rearrange-panes:
+    - Ctrl-Shift
+  tab-1:
+    - ⌘-1
+  tab-2:
+    - ⌘-2
+  tab-3:
+    - ⌘-3
+  tab-4:
+    - ⌘-4
+  tab-5:
+    - ⌘-5
+  tab-6:
+    - ⌘-6
+  tab-7:
+    - ⌘-7
+  tab-8:
+    - ⌘-8
+  tab-9:
+    - ⌘-9
+  tab-10: []
+  duplicate-tab: []
+  restart-tab: []
+  reconnect-tab: []
+  disconnect-tab: []
+  explode-tab:
+    - ⌘-Shift-.
+  combine-tabs:
+    - ⌘-Shift-,
+  tab-11: []
+  tab-12: []
+  tab-13: []
+  tab-14: []
+  tab-15: []
+  tab-16: []
+  tab-17: []
+  tab-18: []
+  tab-19: []
+  tab-20: []
+  split-right:
+    - ⌘-Shift-D
+  split-bottom:
+    - ⌘-D
+  split-left: []
+  split-top: []
+  pane-nav-right:
+    - ⌘-⌥-Right
+  pane-nav-down:
+    - ⌘-⌥-Down
+  pane-nav-up:
+    - ⌘-⌥-Up
+  pane-nav-left:
+    - ⌘-⌥-Left
+  pane-nav-previous:
+    - ⌘-⌥-[
+  pane-nav-next:
+    - ⌘-⌥-]
+  pane-nav-1: []
+  pane-nav-2: []
+  pane-nav-3: []
+  pane-nav-4: []
+  pane-nav-5: []
+  pane-nav-6: []
+  pane-nav-7: []
+  pane-nav-8: []
+  pane-nav-9: []
+  pane-maximize:
+    - ⌘-⌥-Enter
+  close-pane:
+    - ⌘-Shift-W
+  pane-increase-vertical: []
+  pane-decrease-vertical: []
+  pane-increase-horizontal: []
+  pane-decrease-horizontal: []
+  profile-selector:
+    - ⌘-E
+  switch-profile:
+    - ⌘-Shift-E
+  command-selector:
+    - ⌘-Shift-P
+  debug-save-state:
+    - Ctrl-Shift-Alt-1
+  debug-load-state:
+    - Ctrl-Shift-Alt-2
+  debug-copy-state:
+    - Ctrl-Shift-Alt-3
+  debug-paste-state:
+    - Ctrl-Shift-Alt-4
+  debug-save-output:
+    - Ctrl-Shift-Alt-5
+  debug-load-output:
+    - Ctrl-Shift-Alt-6
+  debug-copy-output:
+    - Ctrl-Shift-Alt-7
+  debug-paste-output:
+    - Ctrl-Shift-Alt-8
+  insert-new-line:
+    - ⌥-Shift-Enter
+  next-mru-tab: []
+  previous-mru-tab: []
+  pin-tab: []
+  switch-meta-option:
+    - ⌘-⌥-O
+terminal:
+  searchOptions: {}
+  colorScheme:
+    name: base2tone-desert-dark
+    foreground: '#ada594'
+    background: '#292724'
+    cursor: '#bc672f'
+    colors:
+      - '#292724'
+      - '#816f4b'
+      - '#ec9255'
+      - '#ffb380'
+      - '#957e50'
+      - '#ec9255'
+      - '#ac8e53'
+      - '#ada594'
+      - '#7e7767'
+      - '#f29d63'
+      - '#3d3a34'
+      - '#615c51'
+      - '#908774'
+      - '#ddcba6'
+      - '#e58748'
+      - '#f2ead9'
+  font: Ioskeley Mono
+  ligatures: true
+  cursor: beam
+  fallbackFont: Hack Nerd Font
+  customColorSchemes: []
+  drawBoldTextInBrightColors: false
+  rightClick: paste
+  copyOnSelect: true
+  hideTabIndex: true
+  showTabProfileIcon: true
+  profile: local:custom:zsh:7a2921ea-fec3-4a48-9e12-0bb52ef8cc8d
+  fontSize: 15
+  linePadding: 1
+  lightColorScheme:
+    name: Tabby Default Light
+    foreground: '#4d4d4c'
+    background: '#ffffff'
+    cursor: '#4d4d4c'
+    colors:
+      - '#000000'
+      - '#c82829'
+      - '#718c00'
+      - '#eab700'
+      - '#4271ae'
+      - '#8959a8'
+      - '#3e999f'
+      - '#ffffff'
+      - '#000000'
+      - '#c82829'
+      - '#718c00'
+      - '#eab700'
+      - '#4271ae'
+      - '#8959a8'
+      - '#3e999f'
+      - '#ffffff'
+ssh:
+  knownHosts:
+    - host: 10.212.244.230
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: f//lUrsffXZG7WJFOnfQ9TYY3PlmEotMgGuotGTMJTw=
+    - host: devrpi.local
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: f//lUrsffXZG7WJFOnfQ9TYY3PlmEotMgGuotGTMJTw=
+clickableLinks: {}
+accessibility: {}
+appearance:
+  colorSchemeMode: auto
+  tabsInFullscreen: true
+  spaciness: 0.9
+  vibrancy: true
+hacks: {}
+providerBlacklist: []
+commandBlacklist: []
+profileBlacklist: []
+enableWelcomeTab: false
+pluginBlacklist: []
+profileDefaults:
+  ssh:
+    disableDynamicTitle: true
