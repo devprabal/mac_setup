@@ -143,6 +143,12 @@
 		<string>option:49</string>
 		<key>commandBarShortcutEnabled</key>
 		<false/>
+		<key>ddcVolumeMaximum</key>
+		<integer>100</integer>
+		<key>ddcVolumeMinimum</key>
+		<integer>0</integer>
+		<key>ddcVolumeStep</key>
+		<real>6.25</real>
 		<key>defaultDurationMinutes</key>
 		<integer>0</integer>
 		<key>dimScreenOnLidClose</key>
@@ -160,6 +166,10 @@
 		<key>displayBrightnessIncreaseShortcut</key>
 		<string>shift+command:24</string>
 		<key>displayBrightnessShortcutsEnabled</key>
+		<false/>
+		<key>displayVolumeEnabled</key>
+		<false/>
+		<key>displayVolumeKeysEnabled</key>
 		<false/>
 		<key>dockClickCycleWindows</key>
 		<false/>
@@ -325,6 +335,8 @@
 		<true/>
 		<key>featureAvailable.scrollInverter</key>
 		<false/>
+		<key>featureAvailable.scrollSpeed</key>
+		<false/>
 		<key>featureAvailable.scrollZoom</key>
 		<false/>
 		<key>featureAvailable.shelf</key>
@@ -432,7 +444,7 @@
 		<key>killProcessSortBy</key>
 		<string>cpu</string>
 		<key>lastUpdateIntroVersion</key>
-		<string>3.4.3</string>
+		<string>3.4.4</string>
 		<key>launchAtLoginWanted</key>
 		<true/>
 		<key>linearScrollEnabled</key>
@@ -1036,6 +1048,8 @@
 		<true/>
 		<key>panelControlShelf</key>
 		<true/>
+		<key>panelControlSmoothScroll</key>
+		<true/>
 		<key>panelControlSpacesOrder</key>
 		<true/>
 		<key>panelControlSuperKey</key>
@@ -1338,6 +1352,14 @@
 		<true/>
 		<key>screenshotSaveSubfolder</key>
 		<string></string>
+		<key>screenshotScrollingAutoScroll</key>
+		<false/>
+		<key>screenshotScrollingShortcut</key>
+		<string>control+option+shift+command:21</string>
+		<key>screenshotScrollingShortcutEnabled</key>
+		<false/>
+		<key>screenshotScrollingShowCaptureMenuOnShortcut</key>
+		<true/>
 		<key>screenshotSharingEnabled</key>
 		<true/>
 		<key>screenshotShortcut</key>
@@ -1365,7 +1387,7 @@
 		<key>screenshotWatermarkPresets</key>
 		<string>[]</string>
 		<key>screenshotWatermarkStyle</key>
-		<string>{"anchor":"bottomTrailing","opacity":0.4,"color":"white","kind":"none","text":"","rotation":0,"size":0.3}</string>
+		<string>{"size":0.3,"rotation":0,"text":"","kind":"none","opacity":0.4,"color":"white","anchor":"bottomTrailing"}</string>
 		<key>scrollHorizontalEnabled</key>
 		<true/>
 		<key>scrollHorizontalModifier</key>
@@ -1376,6 +1398,14 @@
 		<array/>
 		<key>scrollInverterHorizontalEnabled</key>
 		<false/>
+		<key>scrollSpeedEnabled</key>
+		<false/>
+		<key>scrollSpeedExceptions</key>
+		<array/>
+		<key>scrollSpeedModifier</key>
+		<string>option</string>
+		<key>scrollSpeedMultiplier</key>
+		<integer>3</integer>
 		<key>shelfAutomaticExclusions</key>
 		<array/>
 		<key>shelfClearOnClose</key>
@@ -1437,7 +1467,7 @@
 		<key>superKeySource</key>
 		<string>capsLock</string>
 		<key>supportUpdateIntroVersion</key>
-		<string>3.4.3-support</string>
+		<string>3.4.4-support</string>
 		<key>switcherAllWindowsShortcut</key>
 		<string>option:48</string>
 		<key>switcherAllWindowsShortcutEnabled</key>
@@ -1453,6 +1483,8 @@
 		<key>switcherEnabled</key>
 		<true/>
 		<key>switcherIconRowMode</key>
+		<false/>
+		<key>switcherIgnoreHoverSelection</key>
 		<false/>
 		<key>switcherInstantSelection</key>
 		<false/>
@@ -1549,6 +1581,8 @@
 		<true/>
 		<key>uninstallerCommandBarEnabled</key>
 		<false/>
+		<key>uninstallerWatchesTrash</key>
+		<false/>
 		<key>updateHighlightsSeenVersion</key>
 		<string>3.4.0</string>
 		<key>urlCleanerCustomParameters</key>
@@ -1592,6 +1626,8 @@
 		<key>windowEdgeSnapDisabledZones</key>
 		<string></string>
 		<key>windowEdgeSnapEnabled</key>
+		<false/>
+		<key>windowEdgeSnapRestoreOnDrag</key>
 		<false/>
 		<key>windowEdgeSnapZoneActions</key>
 		<string></string>
@@ -1707,7 +1743,7 @@
 		<false/>
 	</dict>
 	<key>vorssaintBackupAppVersion</key>
-	<string>3.4.3</string>
+	<string>3.4.4</string>
 	<key>vorssaintBackupVersion</key>
 	<integer>1</integer>
 </dict>
